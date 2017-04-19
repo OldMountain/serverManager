@@ -1,0 +1,23 @@
+name: Manager
+main: com.mc.manager.servermanager.Manager
+version: 1.15
+description: 遮天mc服务器管理插件
+author: OldMountain
+website: http://mczhetian.icoc.cc/
+prefix: 遮天管理
+commands:
+  zhetian:
+    description: 遮天命令
+    usage: |
+    permission: manager.zt
+    permission-message: §c无权执行!  
+  zt:
+    description: 遮天命令
+    usage: /<command> help 查看帮助
+    permission-message: §c无权执行!
+permissions:
+  manager.z:
+    default: false
+    description: 无
+    children:
+      manager.prefix: true 

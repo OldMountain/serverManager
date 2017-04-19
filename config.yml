@@ -1,0 +1,15 @@
+message: 
+  prefix: [遮天管理]
+mysql: 
+  url: 222.187.221.189 
+  dbName: mc8160
+  username: mc8160
+  password: 816055
+world: 
+  fuben: 
+    item:  
+      - 4625
+      - 4623
+    name:  
+      - '副本'
+permission: PermissionsEx
